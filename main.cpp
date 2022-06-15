@@ -44,13 +44,6 @@ cambio=true;
 }
 
 namespace cpp_secrets{
-///Runnable: A class which has a valid and public default ctor and a "run()" function.
-///BenchmarkingTimer tests the "run()" function of Runnable
-///num_run_cycles: It is the number of times run() needs to be run for a single test.
-///One Runnable object is used for a single test.
-///Note: if the run() function is statefull then it can only be run once for an object in order
-///to get meaningful results.
-///num_tests: It is the number of tests that need to be run.
     template <typename Runnable, int num_run_cycles = 1000000, int num_tests = 10>
 
         struct BenchmarkingTimer{
