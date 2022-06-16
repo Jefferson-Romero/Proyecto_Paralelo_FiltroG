@@ -17,11 +17,6 @@
 
 
 using namespace std;
-
-
-
-
-
 void IntercambiaDouble(double x, double y){
 double aux = x;
 x = y;
